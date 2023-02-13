@@ -1,0 +1,62 @@
+
+body {
+  margin: auto;
+  width: 640px;
+  padding: 50px;
+  font-family: 'Avenir', sans-serif;
+
+}
+header{
+  background-image: url(./europeana-6c43FgRt0Dw-unsplash.jpg);
+ height: 50px;
+  width: 90%;
+  text-align:left;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body>div>header>h1 {
+  color: #be0707ca;
+}
+
+.info {
+  display: block;
+  font-size: 1.5em;
+
+}
+.wrapper
+{
+  width: 80%;
+  border: #000000 solid 1.8px;
+  background: linear-gradient(to right, #b8a2a2, #d08484);
+}
+
+h3 {
+  color: #333;
+}
+
+ul {
+  color: #333;
+}
+
+img {
+  padding: 30px;
+  width: 20%;
+  height: 20%;
+  filter: blur(500px);
+    filter:contrast(250%);
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+  color: #000000;
+}
+
+li:nth-of-type(odd) {
+  font-weight: bold;
+}
+
+footer p {
+  color: #333;
+}
